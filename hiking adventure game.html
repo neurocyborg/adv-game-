@@ -7,3 +7,28 @@
         <img src="http://www.newsbiscuit.com/wp-content/uploads/2013/11/legless.jpg">
     </body>
 </html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Cookies...</h2>
+
+
+<button open page="myFunction()">cookies</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() 
+    var txt;
+    if (confirm("Press a button!")) {
+        txt = "You pressed cookies!";
+    } else {
+        txt = "You pressed milk!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
